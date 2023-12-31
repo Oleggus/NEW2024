@@ -27,7 +27,7 @@ tput sgr0; tput setaf 3
 for ((i=1; i<=3; i++))
 {
     tput cup $((lin++)) $c
-    echo 'СИТ Шеметьево ВИП'
+    echo 'СИТ'
 }
 tput setaf 2; tput bold
 tput cup $lin $((c - 8)); echo  Коллеги, я поздравляет всех с Новым 2024 годом!
